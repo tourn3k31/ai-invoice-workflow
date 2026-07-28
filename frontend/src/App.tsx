@@ -1,6 +1,7 @@
 import { FormEvent, useEffect, useMemo, useState } from 'react';
 
-const API = 'http://localhost:5074/api';
+// const API = 'http://localhost:5074/api';
+const API = 'https://ai-invoice-api-daniel-d7g6btg3btcdfzd3.centralus-01.azurewebsites.net/api';
 
 type Finding = { id: string; severity: string; code: string; message: string };
 type LineItem = { id?: string; description: string; quantity: number; unitPrice: number; lineTotal?: number };
