@@ -27,12 +27,22 @@ app.UseCors();
 app.UseSwagger();
 app.UseSwaggerUI();
 
+// app.MapGet("/api/invoices", async (AppDbContext db) =>
+//     Results.Ok(await db.Invoices
+//         .Include(i => i.LineItems)
+//         .Include(i => i.Findings)
+//         .OrderByDescending(i => i.CreatedAt)
+//         .ToListAsync()));
+
 app.MapGet("/api/invoices", async (AppDbContext db) =>
-    Results.Ok(await db.Invoices
+{
+    var invoices = await db.Invoices
         .Include(i => i.LineItems)
         .Include(i => i.Findings)
-        .OrderByDescending(i => i.CreatedAt)
-        .ToListAsync()));
+        .ToListAsync();
+
+    return Results.Ok(invoices.OrderByDescending(i => i.CreatedAt));
+});
 
 app.MapGet("/api/invoices/{id:guid}", async (Guid id, AppDbContext db) =>
 {

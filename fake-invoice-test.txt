@@ -1,0 +1,11 @@
+Vendor: Harbor Office Solutions
+Invoice Number: INV-2026-0428
+Invoice Date: 2026-07-28
+Due Date: 2026-08-27
+PO Number: PO-7842
+Item: Ergonomic Keyboard | 2 | 49.99
+Item: Wireless Mouse | 3 | 24.50
+Item: USB-C Dock | 1 | 129.00
+Subtotal: 302.48
+Tax: 27.22
+Total: 329.70
