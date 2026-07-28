@@ -1,0 +1,10 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceWorkflow.Api", "backend\InvoiceWorkflow.Api.csproj", "{A3E09593-0676-491A-89D3-7718C3EF7B8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceWorkflow.Api.Tests", "backend.Tests\InvoiceWorkflow.Api.Tests.csproj", "{DA147ADF-FE08-42D7-AB81-A124156D83A6}"
+EndProject
+Global
+EndGlobal

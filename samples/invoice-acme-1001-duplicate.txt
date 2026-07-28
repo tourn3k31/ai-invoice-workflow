@@ -1,0 +1,10 @@
+Vendor: Acme Office Supply
+Invoice Number: INV-1001
+Invoice Date: 2026-07-15
+Due Date: 2026-08-14
+PO Number: PO-5501
+Item: Printer Paper | 5 | 8.00
+Item: Ink Cartridge | 2 | 25.00
+Subtotal: 90.00
+Tax: 8.10
+Total: 98.10
