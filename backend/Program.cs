@@ -167,6 +167,7 @@ app.MapGet("/api/metrics", async (AppDbContext db) =>
     });
 });
 
-app.Run("http://localhost:5074");
+// app.Run("http://localhost:5074");
+app.Run();
 
 public partial class Program;
