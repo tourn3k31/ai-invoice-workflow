@@ -1,0 +1,11 @@
+Vendor: Golden State Office Furniture
+Invoice Number: GSOF-2026-0731
+Invoice Date: 2026-07-30
+Due Date: 2026-08-29
+PO Number: PO-9150
+Item: Office Chair | 3 | 145.00
+Item: Filing Cabinet | 2 | 98.50
+Item: Desk Lamp | 5 | 26.40
+Subtotal: 764.00
+Tax: 68.76
+Total: 832.76
